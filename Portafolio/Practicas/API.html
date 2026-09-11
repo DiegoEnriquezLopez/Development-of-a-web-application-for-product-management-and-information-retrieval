@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de API con JavaScript</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .producto { border: 1px solid #ccc; padding: 15px; border-radius: 8px; max-width: 400px; margin-top: 20px; }
+        .producto h2 { margin-top: 0; }
+        .producto img { max-width: 100%; height: auto; display: block; margin-bottom: 10px; }
+    </style>
+    <script src="../JS/API.js" defer></script>
+</head>
+<body>
+
+    <h1>Ejemplo de Consumo de API</h1>
+    <p>Haremos una llamada a la API para obtener el producto con ID 1.</p>
+    <input id="id" placeholder="ID">
+    <button onclick="obtenerProducto()">Cargar Producto</button>
+    
+    <div id="contenedor-producto">
+        <p>Presiona el botón para cargar los datos...</p>
+    </div>
+    
+</body>
+</html>

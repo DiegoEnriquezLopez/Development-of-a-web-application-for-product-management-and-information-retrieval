@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script type="text/javascript">
+		console.log("entro al script")
+		var edad
+		console.log("creo variable");
+
+		function saludar(){
+			console.log("entro saludar")
+			alert("Si puedes pasar " + edad);
+		}
+
+		function despedir(){
+			console.log("entro despedir")
+			alert("No puedes pasar");
+		}
+
+		console.log("termino saludar");
+
+		function getEdad(){
+			console.log("entro getEdad")
+			edad = prompt("Introduce tu edad:");
+			if (edad > 18) {
+				saludar();
+			} else {
+				despedir();
+			}
+		}
+
+		console.log("paso getEdad");
+		getEdad();
+	</script>
+</head>
+<body>
+	Hola mundo
+</body>
+</html>

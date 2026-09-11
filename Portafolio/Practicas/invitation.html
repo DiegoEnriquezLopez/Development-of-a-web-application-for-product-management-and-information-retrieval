@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rainbow Six Siege World Open 2025</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="../CSS/estilo_invitacion.css" />
+</head>
+
+<body class="text-light">
+
+  <div class="position-fixed top-0 end-0 m-3">
+    <a href="invitacion.html" class="btn btn-outline-light btn-sm" rel="alternate" hreflang="es">Spanish</a>
+  </div>
+
+  <section id="portada" class="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center text-light">
+    <div class="bg-dark bg-opacity-75 p-5 rounded shadow-lg">
+      <h1 class="display-4 fw-bold text-uppercase mb-3">Rainbow Six Siege World Open-2025</h1>
+      <p class="lead fst-italic">International eSports Competition</p>
+      <p class="fs-5">Join from any country and show your skills on the battlefield.</p>
+    </div>
+  </section>
+
+  <section id="fecha" class="py-5 text-center">
+    <div class="container">
+      <div class="bg-dark bg-opacity-75 p-5 rounded shadow-lg">
+        <h2 class="fw-bold text-uppercase mb-4">📅 Event date, time and venue</h2>
+        <p class="fs-5">
+          <strong>Date:</strong> 1/11/25<br>
+          <strong>Time:</strong> 10:00 AM – 6:00 PM (GMT-6)<br>
+          <strong>Venue:</strong> Global live stream 🌎 via Twitch and YouTube
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="descripcion" class="py-5 text-center">
+    <div class="container">
+      <div class="bg-dark bg-opacity-75 p-5 rounded shadow-lg">
+        <h2 class="fw-bold text-uppercase mb-4">🎮 Event description</h2>
+        <p class="fs-5">
+          The <strong>Rainbow Six Siege World Open 2025</strong> is an open competition for players from all countries.  
+          Five-player teams will battle in intense tactical matches to reach global glory.  
+          The tournament features worldwide qualifiers, ranking rounds, and a grand final broadcast live.
+        </p>
+        <hr class="border-light my-4">
+        <h3 class="text-warning fw-bold">🏆 International prizes</h3>
+        <ul class="list-unstyled fs-5 mt-3">
+          <li><strong>🥇 1st Place:</strong> $10,000 USD + World Trophy</li>
+          <li><strong>🥈 2nd Place:</strong> $5,000 USD + Silver Medal</li>
+          <li><strong>🥉 3rd Place:</strong> $2,500 USD + International Recognition</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="confirmacion" class="py-5 text-center">
+    <div class="container">
+      <div class="bg-dark bg-opacity-75 p-5 rounded shadow-lg">
+        <h2 class="fw-bold text-uppercase mb-4 text-success">Confirm participation</h2>
+        <p class="fs-5 mb-4">
+          Choose an option to confirm your attendance to the tournament:
+        </p>
+
+        <button type="button" class="btn btn-success btn-lg mx-2" data-bs-toggle="modal" data-bs-target="#modalAceptar">
+          ✅ Accept invitation
+        </button>
+
+        <button type="button" class="btn btn-danger btn-lg mx-2" data-bs-toggle="modal" data-bs-target="#modalRechazar">
+          ❌ Decline invitation
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="modalAceptar" tabindex="-1" aria-labelledby="modalAceptarLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title text-success" id="modalAceptarLabel">✅ Response sent</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Thank you for accepting the invitation!  
+          We’re glad to have you in this international competition.  
+          You will receive more information by email.
+        </div>
+        <div class="modal-footer border-secondary">
+          <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalRechazar" tabindex="-1" aria-labelledby="modalRechazarLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title text-danger" id="modalRechazarLabel">❌ Response sent</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Thank you for your response.  
+          We’re sorry you can’t join us this time,  
+          we hope to see you in the next international tournament!
+        </div>
+        <div class="modal-footer border-secondary">
+          <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="desarrollador" class="py-5 text-center">
+    <div class="container">
+      <div class="bg-dark bg-opacity-75 p-5 rounded shadow-lg">
+        <h2 class="fw-bold text-uppercase mb-4">Developer</h2>
+        <p class="fs-5">
+          Project developed by <strong>Diego Enríquez López</strong>  
+        </p>
+        📧 <strong>Email:</strong>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=diego.enriquez@up.edu.mx"
+           target="_blank"
+           class="text-decoration-none text-primary">
+           diego.enriquez@up.edu.mx
+        </a>
+
+        <hr class="border-light my-4">
+      </div>
+    </div>
+  </section>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+
+</body>
+</html>

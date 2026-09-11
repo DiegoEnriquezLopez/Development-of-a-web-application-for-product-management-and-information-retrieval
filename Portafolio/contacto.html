@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto - CV de Diego Enríquez López</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="../CSS/estiloCV.css" />
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+  <div class="container">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="habilidades.html">Habilidades</a></li>
+        <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="experiencia_hobbies.html">Experiencia/hobbies</a></li>
+        <li class="nav-item"><a class="nav-link" href="tareas_practicas.html">Tareas y practica</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="height:70px"></div>
+
+<section class="container py-5 mt-5">
+  <h1 class="text-center text-uppercase fw-bold mb-4">Contáctame</h1>
+  <p class="fs-5 text-center mb-5">
+    Si deseas colaborar en un proyecto web, solicitar una página personalizada o conocer más sobre mi trabajo,
+    completa el siguiente formulario o usa los medios de contacto disponibles.
+  </p>
+
+  <form class="mx-auto" style="max-width: 600px;" novalidate>
+    <div class="mb-3">
+      <label for="nombre" class="form-label fw-bold">Nombre completo</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label fw-bold">Correo electrónico</label>
+      <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="asunto" class="form-label fw-bold">Asunto</label>
+      <input type="text" class="form-control" id="asunto" placeholder="Motivo del mensaje" required>
+    </div>
+
+    <div class="mb-4">
+      <label for="mensaje" class="form-label fw-bold">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+    </div>
+
+    <div class="text-center">
+      <button type="button" class="btn btn-primary btn-lg px-5" data-bs-toggle="modal" data-bs-target="#modalEnviado">
+        Enviar
+      </button>
+    </div>
+  </form>
+
+  <hr class="my-5">
+
+  <div class="text-center">
+    <h3 class="fw-bold text-uppercase mb-3">Información de contacto</h3>
+    <p class="fs-5">
+      📧 <strong>Correo:</strong>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=diego.enriquez@up.edu.mx"
+         target="_blank" class="text-decoration-none text-primary">
+        diego.enriquez@up.edu.mx
+      </a>
+      <br>
+
+      📍 <strong>Ubicación:</strong>
+      <a href="https://www.google.com/maps?q=Universidad+Panamericana+Aguascalientes"
+         target="_blank" class="text-decoration-none text-primary">
+        Universidad Panamericana, Aguascalientes
+      </a>
+      <br>
+
+      📞 <strong>Teléfono:</strong> +52 449 383 1928<br>
+
+      🌐 <a href="https://github.com/DiegoEnriquezLopez" target="_blank"
+           class="text-decoration-none text-primary">Mi GitHub</a><br>
+    </p>
+  </div>
+</section>
+
+<div class="modal fade" id="modalEnviado" tabindex="-1" aria-labelledby="modalEnviadoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header border-secondary">
+        <h5 class="modal-title text-success" id="modalEnviadoLabel">✅ Mensaje enviado correctamente</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        Tu mensaje ha sido enviado con éxito.<br>
+        Gracias por comunicarte conmigo. Te responderé lo antes posible.
+      </div>
+      <div class="modal-footer border-secondary">
+        <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

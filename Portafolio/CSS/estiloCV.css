@@ -1,0 +1,15 @@
+form:invalid button[type="button"] {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.9);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+form:valid button[type="button"] {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
