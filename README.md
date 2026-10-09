@@ -22,6 +22,7 @@ This project consists of a web application for browsing and managing products re
 **Prerequisites**
 - Make sure the following software is installed:
 - Node.js
+- 
 - npm, included with Node.js
 - MySQL
 
@@ -32,18 +33,10 @@ cd Development-of-a-web-application-for-product-management-and-information-retri
 3. Install Dependencies
 npm install
 4. Configure the Database
-Make sure MySQL is running and configure the database connection in server.js to match your local MySQL installation.
-
-The current server configuration uses the following settings:
-- Host: localhost
-- User: root
-- Database: mysql
-- Port: 3000 for the web server
-
-The application expects a database table named products with fields for product ID, name, price, image, category, and description.
-
-If necessary, update the database connection settings and create the required database and table before starting the application.
-
+- Start MySQL from the XAMPP Control Panel.
+- Configure the database connection in server.js to match your local MySQL installation, including the host, username, password, and database name.
+- The application expects a database table named products with the following fields: id, name, price, img, category, and description.
+- Make sure the database and table are available and that the connection settings match your local configuration before starting the application.
 5. Start the Server
 Run the following command from the API/ directory:
 node server.js
