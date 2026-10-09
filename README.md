@@ -10,3 +10,11 @@ This project consists of a web application for browsing and managing products re
 - Administration Interface: Access the product administration page.
 - Personal Portfolio: Includes personal information, skills, projects, hobbies, and contact pages.
 - Web Development Exercises: Contains examples and exercises involving HTML, CSS, JavaScript, the DOM, APIs, forms, and other web development concepts.
+## Technologies Used
+- HTML5: Web page structure.
+- CSS3: Styling and layout.
+- JavaScript: Client-side functionality and API requests.
+- Node.js: Backend runtime environment.
+- Express.js: Web server and HTTP request handling.
+- MySQL: Relational database for product information.
+- npm: Dependency management.
