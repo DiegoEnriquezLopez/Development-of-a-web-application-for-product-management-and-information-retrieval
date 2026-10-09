@@ -18,3 +18,9 @@ This project consists of a web application for browsing and managing products re
 - Express.js: Web server and HTTP request handling.
 - MySQL: Relational database for product information.
 - npm: Dependency management.
+## Installation and Setup
+**Prerequisites**
+- Make sure the following software is installed:
+- Node.js
+- npm, included with Node.js
+- MySQL
