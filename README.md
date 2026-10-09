@@ -24,3 +24,33 @@ This project consists of a web application for browsing and managing products re
 - Node.js
 - npm, included with Node.js
 - MySQL
+
+1. Clone the Repository
+git clone https://github.com/DiegoEnriquezLopez/Development-of-a-web-application-for-product-management-and-information-retrieval.git
+2. Navigate to the API Directory
+cd Development-of-a-web-application-for-product-management-and-information-retrieval/API
+3. Install Dependencies
+npm install
+4. Configure the Database
+Make sure MySQL is running and configure the database connection in server.js to match your local MySQL installation.
+
+The current server configuration uses the following settings:
+- Host: localhost
+- User: root
+- Database: mysql
+- Port: 3000 for the web server
+
+The application expects a database table named products with fields for product ID, name, price, image, category, and description.
+
+If necessary, update the database connection settings and create the required database and table before starting the application.
+
+5. Start the Server
+Run the following command from the API/ directory:
+node server.js
+
+When the server starts successfully, open the following address in your browser:
+http://localhost:3000
+## Portfolio and Web Development Exercises
+The `Portafolio/` directory contains a personal website with sections featuring fictional personal information, skills, projects, hobbies, and contact information.
+
+It also includes practical exercises covering HTML, CSS, JavaScript, DOM manipulation, APIs, forms, Bootstrap, and other web development topics.
