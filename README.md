@@ -33,10 +33,10 @@ cd Development-of-a-web-application-for-product-management-and-information-retri
 3. Install Dependencies
 npm install
 4. Configure the Database
-- Start MySQL from the XAMPP Control Panel.
-- Configure the database connection in server.js to match your local MySQL installation, including the host, username, password, and database name.
-- The application expects a database table named products with the following fields: id, name, price, img, category, and description.
-- Make sure the database and table are available and that the connection settings match your local configuration before starting the application.
+  - Start MySQL from the XAMPP Control Panel.
+  - Configure the database connection in server.js to match your local MySQL installation, including the host, username, password, and database name.
+  - The application expects a database table named products with the following fields: id, name, price, img, category, and description.
+  - Make sure the database and table are available and that the connection settings match your local configuration before starting the application.
 5. Start the Server
 Run the following command from the API/ directory:
 node server.js
